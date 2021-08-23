@@ -1,24 +1,44 @@
 html{
-    text-align: center;
     background:rgb(45, 43, 43);
     color:orange;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.body{
+    color: rgb(255, 220, 220);
 }
 
 header{
-    margin: 15%;
-}
-
-h1{
-    
+    margin: 10%;
 }
 
 a{
-    color: aliceblue;
+    color: rgb(255, 220, 220);
+    text-decoration: underline;
+    text-decoration-color:orange;
+    text-decoration-thickness: 15%;
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+}
+.nav-link{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+li{
+    margin: 1%;
 }
